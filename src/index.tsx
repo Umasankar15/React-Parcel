@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import App from "./App";
 
 const container = document.getElementById('app') as HTMLElement;
 
@@ -7,6 +8,4 @@ const container = document.getElementById('app') as HTMLElement;
 const root = ReactDOM.createRoot(container);
 
 // Initial render
-root.render(<h1>
-    Hello Parcel!
-</h1>);
+root.render(<App />);
